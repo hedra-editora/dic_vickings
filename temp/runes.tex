@@ -1,0 +1,44 @@
+%run: xelatex or lualatex mal-runes.tex
+\documentclass[a4paper]{article}
+%\usepackage[utf8]{inputenc}
+% addition for pdflatex, some letters, e.g. ä ö, are not working well, we must use input alternatives
+\pagestyle{empty}
+\parindent=0pt
+\usepackage{xcolor}
+\usepackage{allrunes}
+\newwrite\malwrite
+\openout\malwrite=mal-temp.tex
+\newcount\malc \malc=0
+\def\malfile{mal-result.tex}
+
+\def\prettyRunes#1{%
+  \advance\malc by 1%
+  \write\malwrite{#1}%
+  %#1% An original text.
+  \IfFileExists{\malfile}{%
+    {\armfamily\mdseries% bf, md, lf
+\par % to be commented out
+{\normalfont Before (input \the\malc): }{\color{blue}#1}\par% original entry; to be commented out
+{\normalfont After (output \the\malc): }{\color{green}% to be commented out
+%\makebox[0pt][l]{\color{red}\input{mal-result-1.tex}}% comparing random seed versions
+\input{\malfile}}%
+}\par\smallskip%  to be commented out
+    }% End of \armfamily...
+    {}%#1% Shall I display anything after the first run of TeX?
+  }
+\begin{document}
+Text before. \prettyRunes{This is {a} slab of text} 
+% first letter "a" is protected from modification, the second letter "a" is not...
+Some text. \prettyRunes{Another test \tdot\.N\rdot {\tdot}{\.N}{\rdot}} 
+% \tdot, \.N and \rdot are also modified, the last three runes are not as they are protected...
+Text after. \par\bigskip
+%\ifx % all runes to process, deeper testing
+\prettyRunes{a\a\.a\adot\'aA bB c\c\.cC\^c d\.t\tbar\=t\tdot\'t\tflag\~t\tring\^tD\.T\D\"T}
+\prettyRunes{e\.i\e\=iE\^i fF g\.kG\'k\g\=k h\h H i k l\l\.l\lbar\=l\ldot\'l\lflag\~l\lring\^l m\m}
+\prettyRunes{n\n\.n\ndot\'nN\N\.N o p\"b\p\.b\P\Pdots\"\P P q\q\Q r\rdot\.r\r}
+\prettyRunes{sS\S tT\T \th þ\TH Þ\thth \dh ð \.\th \DH Ð \.\TH}
+\prettyRunes{u v V\.f\v\'f\V\~f w x\x X\X y\.uYv\y\"u\Y\=u}
+\prettyRunes{z\z Z äæ\ae \o öø \O ÖØ \oo\oO \ey\arlaug\tvimadur\belgthor jå\aa}
+%\fi
+\closeout\malwrite
+\end{document}

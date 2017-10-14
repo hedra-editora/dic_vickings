@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{filecontents}
+
+\begin{filecontents*}{junicode.fea}
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature liga {
+    sub t y by t_y;
+} liga;
+\end{filecontents*}
+
+\setmainfont[FeatureFile={junicode.fea}]{junicode}
+
+\begin{document}
+fifty
+nifty
+activity
+\end{document}
