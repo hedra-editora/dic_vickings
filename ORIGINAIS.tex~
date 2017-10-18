@@ -4,10 +4,10 @@
 \renewcommand*{\chapnumfont}{\normalfont\HUGE\bfseries\sffamily}
 \renewcommand*{\chaptitlefont}{\normalfont\fontsize{50}{60}\selectfont\bfseries\sffamily}
 
-\chapter{A \textarn{a}}
+\chapter{A}
 
 
-\textarc{a}a-\textarc{b}b-\textarc{c}c-\textarc{d}d-\textarc{e}e-\textarc{f}f-\textarc{g}g-
+%\textarc{a}a-\textarc{b}b-\textarc{c}c-\textarc{d}d-\textarc{e}e-\textarc{f}f-\textarc{g}g-
 %\textarc{h}h-\textarc{i}i-\textarc{j}j-\textarc{k}k-\textarc{l}l-\textarc{m}m-
 %\textarc{n}n-\textarc{o}o-\textarc{p}p-\textarc{q}q-\textarc{r}r-\textarc{s}s-
 %\textarc{t}t-\textarc{u}u-\textarc{v}v-\textarc{x}x-\textarc{y}y-\textarc{w}w-\textarc{z}z
@@ -681,7 +681,7 @@ Ver também Brian Boru; Celtas e nórdicos; Dublin; Irlanda da Era Viking.
   \versal{MAC} \versal{NIOCAILL}, Gearóid. \emph{The medieval Irish annals}. Dublin:
   Dublin Historical Association, 1975.
 \item
-  \versal{\versal{Ó CUÍV}}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
+  \versal{Ó CUÍV}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
   1000-1169\emph{.} In: \versal{MOODY}, Theodore W. \& \versal{MARTIN}, Francis X.
   \emph{The Course of Irish History.} Cork: Mercier Press, 2011, pp.
   107-122.
@@ -3683,7 +3683,7 @@ A.D. 795-1014. \emph{Northern Scotland}, 26, 2006, pp. 51-63.
 \item \versal{DUFFY}, Seán. \emph{Brian Boru and the Battle of Clontarf}. Dublin: Gill
 Books, 2014.
 
-\item \versal{\versal{Ó CUÍV}}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
+\item \versal{Ó CUÍV}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
 1000-1169\emph{.} In: \versal{MOODY}, Theodore W. \& \versal{MARTIN}, Francis X. \emph{The
 Course of Irish History.} Cork: Mercier Press, 2011, pp. 107-122.
 
@@ -4756,7 +4756,7 @@ início do século \versal{XI}, principalmente sobre a resistência feita pela
 dinastia conhecida como Dál Cais contra os grupos escandinavos.
 
 % Parei de mexer nos versal aqui
-No entanto, a narrativa foi feita no início do século~\versal{XII}, baseada em
+No entanto, a narrativa foi feita no início do século XII, baseada em
 outras fontes textuais disponíveis na época, sob a tutela de
 \emph{Muirchertach Ua Brian}, descendente de Brian Boru e que possuía
 claro interesse propagandístico e político para com a elaboração do
@@ -4766,7 +4766,7 @@ Essa visão dos acontecimentos relacionados com o conflito entre
 irlandeses e vikings influenciou muitos historiadores séculos depois de
 sua elaboração, especialmente Geoffrey Keating em sua ``História da
 Irlanda'' escrita c. 1634 (com tradução para o inglês em 1723). No
-entanto, foi no século~\versal{XIX} que as narrativas presentes no \emph{Cogad
+entanto, foi no século XIX que as narrativas presentes no \emph{Cogad
 Gáedhel re Gallaib}, bem como a própria Batalha de Clontarf narrada
 dentro do corpo do texto, ganharam notoriedade.
 
@@ -4843,21 +4843,21 @@ hiperbolizar sua propaganda política.
 Ver também Brian Boru; Dublin; Irlanda da Era Viking.
 
 \begin{itemize}
-\item \versal{DOWNHAM}, Clare. Irish chronicles as a source for inter-Viking rivalry,
+\item DOWNHAM, Clare. Irish chronicles as a source for inter-Viking rivalry,
 A.D. 795-1014. \emph{Northern Scotland}, 26, 2006, pp. 51-63.
 
-\item \versal{DUFFY}, Seán. \emph{Brian Boru and the Battle of Clontarf}. Dublin: Gill
+\item DUFFY, Seán. \emph{Brian Boru and the Battle of Clontarf}. Dublin: Gill
 Books, 2014.
 
-\versal{Ó CUÍV}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
-1000-1169\emph{.} In: \versal{MOODY}, Theodore W. \& \versal{MARTIN}, Francis X. \emph{The
+Ó CUÍV, Brian. Ireland in the Eleventh and Twelfth Centuries c.
+1000-1169\emph{.} In: MOODY, Theodore W. \& MARTIN, Francis X. \emph{The
 Course of Irish History.} Cork: Mercier Press, 2011, pp. 107-122.
 
-\item \versal{RICHTER}, Michael. \emph{Medieval Ireland:} The Enduring Tradition.
+\item RICHTER, Michael. \emph{Medieval Ireland:} The Enduring Tradition.
 Dublin: Gill and Macmillan, 1988.
 \end{itemize}
 
-\section{COMÉRCIO}\label{comércio}
+\section{COMÉRCIO}
 
 Apesar dos vikings serem lembrados mais como bravos guerreiros e
 intrépidos navegantes, eles também foram comerciantes bem resolvidos. De
@@ -4865,7 +4865,7 @@ fato, os vikings da Suécia se destacaram dos seus vizinhos escandinavos,
 por terem aderido mais ao comércio do que a campanhas de invasão,
 pilhagem e conquista. Devido ao maior contato da costa sueca com o Mar
 Báltico, além do fato de que vários rios suecos desaguam no Báltico,
-isso favoreceu desde meados do século~\versal{VI} a predisposição ao comércio.
+isso favoreceu desde meados do século VI a predisposição ao comércio.
 
 Mas isso não significa que a Noruega e a Dinamarca não tenham
 participado do comércio. A Noruega por estar voltada ao Mar do Norte
@@ -4876,12 +4876,12 @@ por sua posição privilegiada, os dinamarqueses puderam tanto acessar o
 mar Báltico quanto o Mar do Norte, assim como, usufruir das rotas
 comerciais terrestres, da França, Alemanha, Polônia e Rússia.
 
-Só o fato de dizer que os escandinavos entre os séculos~{\versal{IX} e \versal{XI}}
+Só o fato de dizer que os escandinavos entre os séculos IX e XI
 comercializaram com distintos povos e regiões da Europa e do oeste
 asiático já desmente a noção retrógrada de que na Idade Média não havia
 comércio de longa distância. Entretanto, não foi de uma hora para a
-outra que os nórdicos se lançaram ao comércio, o Período Vendel 
-(séculos~\versal{V-VIII}), época que antecede a expansão viking, já era conhecido pelo
+outra que os nórdicos se lançaram ao comércio, o Período Vendel (séculos
+V-VIII), época que antecede a expansão viking, já era conhecido pelo
 comércio. Cidades costeiras como Menzlim, Rostock e Oldenburg, na
 Alemanha; Wolin, Truso e Kolobrzeg na Polônia; Grobin na Letônia e
 Tallin na Estônia, já mantinham contato com cidades suecas e talvez
@@ -5596,7 +5596,7 @@ assumem a identidade dos Rus como sendo descendentes de escandinavos. Os
 varegues martirizados por serem cristãos enquanto Vladimir I ainda era
 pagão são celebrados na \emph{Crônica}. Por outro lado, os cronistas
 geralmente criticavam alguns varegues que eram pagãos por serem
-``ignorantes'', como Oleg o Profeta, Sviatoslav I e os primeiros anos de
+"ignorantes", como Oleg o Profeta, Sviatoslav I e os primeiros anos de
 Vladimir I. Um varegue em particular, o comandante e possível príncipe
 Sveneld, é indiretamente responsável pela morte de Igor e diretamente
 pelo conflito entre os irmãos Iaropolk Sviatoslavich e Oleg
@@ -6359,7 +6359,7 @@ Dunedin Academic Press, 2007.
 \item DUFFY, Seán. \emph{Brian Boru and the Battle of Clontarf}. Dublin: Gill
 Books, 2014.
 
-\item \versal{Ó CUÍV}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
+\item Ó CUÍV, Brian. Ireland in the Eleventh and Twelfth Centuries c.
 1000-1169\emph{.} In: MOODY, Theodore W. \& MARTIN, Francis X. \emph{The
 Course of Irish History.} Cork: Mercier Press, 2011, pp. 107-122.
 
@@ -13277,8 +13277,6 @@ dos \emph{kenningar} foi o utilizado o livro de Egilsson (1931).
 Ver também Heiti; Kenning; Linguagem; Literatura; Norreno; Poesia
 escáldica.
 
-
-
 %\begin{longtable}[]{@{}ll@{}}
 %\toprule
 %\begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
@@ -15327,9 +15325,7 @@ Ocidental. Nesta estela ocorreu uma redução de 21 para 16 runas. A
 estela rúnica dinamarquesa de Gørlev, de Sjæland (850-900), de acordo
 com Spurkland (2001, p. 87), também apresenta um alfabeto com 16 letras.
 Nesta estela, há o nome Halvdan grafado como
-% *ᚼᛅᛚᚠᛅᚾ
-% * \textarn{ᚼ ᛅ ᛚ ᚠ ᛅ ᚾ}
-% \textarn{h a l f t n}
+ᚼᛅ\emph{\href{https://en.wikipedia.org/wiki/ᛚ}{ᛚ}\href{https://en.wikipedia.org/wiki/ᚠ}{ᚠ}\href{https://en.wikipedia.org/wiki/ᛏ}{ᛏ}}ᛅ\href{https://en.wikipedia.org/wiki/ᚾ}{\emph{ᚾ}}
 (\textbf{Halftan}). Spurkland (2001, p. 87) comenta que todas as runas
 desta estela têm apenas um tronco vertical como, por exemplo, ᚼ
 \textbf{h} e \textbf{m}, diferentemente dos estágios anteriores que
@@ -16000,7 +15996,7 @@ Anachronistic ethnicities in Viking-Age England}, Mediaeval Scandinavia
 \item DUFFY, Seán. \emph{Brian Boru and the Battle of Clontarf}. Dublin: Gill
 Books, 2014.
 
-\item  \versal{\versal{Ó CUÍV}}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
+\item  \versal{Ó CUÍV}, Brian. Ireland in the Eleventh and Twelfth Centuries c.
 1000-1169\emph{.} In: MOODY, Theodore W. \& MARTIN, Francis X. \emph{The
 Course of Irish History.} Cork: Mercier Press, 2011, pp. 107-122.
 

@@ -1,16 +1,30 @@
+> versal versalete
+
+  	([A-ZÀÈÌÒÙÀÈÌÒÙÁÉÍÓÚÝÁÉÍÓÚÝÂÊÎÔÛÂÊÎÔÛÃÑÕÃÑÕÄËÏÖÜŸÄËÏÖÜŸÇÇSSØØÅÅÆÆŒ][A-ZÀÈÌÒÙÀÈÌÒÙÁÉÍÓÚÝÁÉÍÓÚÝÂÊÎÔÛÂÊÎÔÛÃÑÕÃÑÕÄËÏÖÜŸÄËÏÖÜŸÇÇSSØØÅÅÆÆŒ]+)
+
+  	\\versal{\1}
+
+> runas
+fichatecnica.sty
+aspas
+compra"-se
+tabelas (Jorge)
+enumerates no meio do texto REXP: ^[0-9]\.
+
+	\begin{enumerate}
+	% 1
+	\item Adcsd
+	\item Adcsd
+	\end{enumerate}
+
+
+
+FEITO 
+=====
+
 itemize
 arrumar entrada 
 letras
 versal em capítulos
 toc
 prefacio/intro
-
-aspas
-'=1
-> versal versalete
-tabelas
-> runas
-  > poliglossia
-enumerates no meio do texto
-
-fichatecnica.sty
