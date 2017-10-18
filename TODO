@@ -9,7 +9,7 @@ fichatecnica.sty
 aspas
 compra"-se
 tabelas (Jorge)
-enumerates no meio do texto REXP: ^[0-9]\.
+enumerates no meio do texto REXP: 	 ^[0-9]\.
 
 	\begin{enumerate}
 	% 1
