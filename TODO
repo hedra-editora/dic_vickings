@@ -4,6 +4,8 @@
 
   	\\versal{\1}
 
+FALTAM VERSALETES DE APENAS UMA LETRA. VERIFICAR TAMBÉM "d.C."
+
 > runas
 fichatecnica.sty
 aspas
@@ -18,6 +20,8 @@ enumerates no meio do texto REXP: 	 ^[0-9]\.
 	\end{enumerate}
 
 
+Verbete HERÁLDICA: Está muito mal escrito. Falta continuar a revisão.
+
 
 FEITO 
 =====
@@ -29,4 +33,4 @@ versal em capítulos
 toc
 prefacio/intro
 
-Verbete HERÁLDICA: Está muito mal escrito. Falta continuar a revisão.
+
