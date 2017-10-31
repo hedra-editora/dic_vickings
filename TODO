@@ -10,6 +10,8 @@ FALTAM VERSALETES DE APENAS UMA LETRA. VERIFICAR TAMBÉM "d.C."
 
 Verbete INSCRIÇÕES RÚNICAS: PULEI
 
+Verbete LINDISFARNE: também precisa de ajustes nas inscrições rúnicas
+
 > runas
 fichatecnica.sty
 aspas
@@ -30,7 +32,7 @@ FEITO
 itemize
 arrumar entrada 
 letras
-versal em capítulos
+versal em capítulos e em termos com mais de uma letra maiúscula
 toc
 prefacio/intro
 
