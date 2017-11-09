@@ -10,6 +10,14 @@ FALTAM VERSALETES DE APENAS UMA LETRA. VERIFICAR TAMBÉM "d.C."
 
 Verbete INSCRIÇÕES RÚNICAS: PULEI
 
+Verbete LINDISFARNE: também precisa de ajustes nas inscrições rúnicas
+
+Verbete L'ANSE-AUX-MEADOWS: PULEI
+
+Verbete LINGUAGEM: ajustes nas inscrições rúnicas. PAREI NO MEIO (faltaram 130 linhas:17814-17944)
+
+Questão de uniformização: nomes próprios em inglês ou traduzidos: exemplo - Haroldo Cabelos Belos ou Harold Bluetooth
+
 > runas
 fichatecnica.sty
 aspas
@@ -24,13 +32,15 @@ enumerates no meio do texto REXP: 	 ^[0-9]\.
 	\end{enumerate}
 
 
+Número do git não está aparecendo na última página!!!!!!
+
 FEITO 
 =====
 
 itemize
 arrumar entrada 
 letras
-versal em capítulos
+versal em capítulos e em termos com mais de uma letra maiúscula
 toc
 prefacio/intro
 
