@@ -5,6 +5,15 @@
 
 \usepackage{allrunes}
 
+\usepackage{tikz}
+
+\newcommand{\agni}{%
+    \begin{tikzpicture}[x=1.4ex, y=1.4ex, scale=0.5, baseline=-.8ex]
+        \draw[semithick] (-1,1)  -- (0,1)  -- (0,-1) -- (1,-1);
+        \draw[semithick] (-1,-1) -- (-1,0) -- (1,0)  -- (1,1);
+    \end{tikzpicture}%
+}
+
 \setcounter{tocdepth}{2}
 
 \renewcommand{\pontinhos}{.}
