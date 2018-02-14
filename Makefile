@@ -1,7 +1,17 @@
+TITULO = "DIC_VIKINGS"
+GIT = `git log -1 --date=short --format=format:'%h'`
+
 all:
-	#latexmk -xelatex -interaction=nonstopmode LIVRO.tex
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
 	latexmk -xelatex LIVRO.tex
-	evince LIVRO.pdf
+rename:
+	cp LIVRO.pdf $(TITULO)_MIOLO_$(GIT).pdf
+clean_arquivosgerais:
+	mv ~/Dropbox/ARQUIVOS_GERAIS/$(TITULO)_MIOLO_* ~/Dropbox/ARQUIVOS_GERAIS/OLD/
+delivery:
+	cp $(TITULO)_MIOLO_$(GIT).pdf ~/Dropbox/ARQUIVOS_GERAIS/
+	echo $(GIT) '--- Entregue em' "$$(date)" >> ENTREGAS.txt
+
 erros:
 	-grep --color=auto "LaTeX Error" LIVRO.log
 	-grep --color=auto -A 3 "Undefined" LIVRO.log
@@ -35,7 +45,7 @@ rubber-test:
 rubber-clean:
 	rubber --clean LIVRO.tex
 clean:
-	-rm *aux *log *tui *toc *.4ct *.4tc *.html *.css *.dvi *.epub *.lg *.ncx *.xref *.tmp *.idv *.opf *.png  LIVRO.pdf
+	-rm *aux *log *tui *toc *.4ct *.4tc *.html *.css *.dvi *.epub *.lg *.ncx *.xref *.tmp *.idv *.opf *.fls *_latexmk LIVRO.pdf
 	-rm -rf EBOOK-epub
 	-rm -rf EBOOK-epub3
 	-rm -rf EBOOK-mobi
@@ -43,10 +53,3 @@ git:
 		git add .
 		git commit -m "direto na linha de comando"
 		git push
-imagepull:
-		mkdir -p img
-	  echo "senha: teste13"
-		scp deploy@162.243.216.130:~/IMAGENS/mitologia_nordica/* img/
-imagepush:
-	  echo "senha: teste13"
-		scp img/*.png deploy@162.243.216.130:~/IMAGENS/mitologia_nordica/
