@@ -1,6 +1,7 @@
 originais/
 original/
 media/
+temp/
 img/
 *.log
 *.aux
@@ -26,3 +27,4 @@ img/
 *.opf
 *.swp
 LIVRO.pdf
+*.pdf
